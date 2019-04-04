@@ -1,0 +1,26 @@
+{
+  "name": "gal.tubi",
+  "version": "1.0.0",
+  "jest": {
+    "preset": "jest-puppeteer",
+    "setupFilesAfterEnv": [
+      "<rootDir>/reporters/screenshot.js"
+    ]
+  },
+  "description": "demo-rep",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galtubi91/automation-demo.git"
+  },
+  "author": "gal.tubi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galtubi91/automation-demo/issues"
+  },
+  "homepage": "https://github.com/galtubi91/automation-demo#readme",
+  "dependencies": {}
+}
