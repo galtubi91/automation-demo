@@ -3,6 +3,7 @@ const testUnit = 'https://renderer.apester.com/v2/5c87d7270e019f1fcb6b69fe?previ
 
 beforeAll(async () => {
     jest.setTimeout(150000);
+    page = await global.__BROWSER__.newPage();
     await page.goto(testUnit, {
         waitUntil: 'domcontentloaded',
     });

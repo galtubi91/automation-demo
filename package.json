@@ -1,12 +1,6 @@
 {
   "name": "gal.tubi",
   "version": "1.0.0",
-  "jest": {
-    "preset": "jest-puppeteer",
-    "setupFilesAfterEnv": [
-      "<rootDir>/reporters/screenshot.js"
-    ]
-  },
   "description": "demo-rep",
   "main": "index.js",
   "scripts": {
@@ -22,5 +16,10 @@
     "url": "https://github.com/galtubi91/automation-demo/issues"
   },
   "homepage": "https://github.com/galtubi91/automation-demo#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.7.1",
+    "jest-puppeteer": "^4.1.0",
+    "puppeteer": "^1.14.0"
+  }
 }
